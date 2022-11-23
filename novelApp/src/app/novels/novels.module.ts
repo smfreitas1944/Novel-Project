@@ -10,6 +10,9 @@ import { ListNovelsComponent } from './list-novels/list-novels.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    ListNovelsComponent
   ]
 })
 export class NovelsModule { }
