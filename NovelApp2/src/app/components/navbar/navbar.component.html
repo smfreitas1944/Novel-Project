@@ -1,1 +1,50 @@
-<p>navbar works!</p>
+<nav class="navbar navbar-expand-lg light-background bg-light py-0">
+    <div class="logo-holder col mr-auto">
+        <div class="row align-items-center">
+            <a class="navbar-brand" [routerLink]="['/home']">
+                <img src="" width="140px" alt="Novel Logo">
+            </a>
+            <h4 class="light-foreground">Soul Sounds Shop</h4>
+        </div>
+        
+    </div>
+    
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <form id="searchForm" class="row form-inline my-lg-0 m-auto">
+            <input id="searchBar" class="form-control mr-sm-2" type="search" placeholder="Search for products..." aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+                <a #navLinkLight class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Novel Genre</a>
+                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" (click)="retrieveByCategory('Fantasy')">Fantasy</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" (click)="retrieveByCategory('Horror')">Horror</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" (click)="retrieveByCategory('Mystery')">Mystery</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" (click)="retrieveByCategory('Romance')">Romance</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" (click)="retrieveByCategory('Drama')">Drama</a>
+                </div>
+            </li>
+        </ul>
+        
+        <div class="dark-mode-toggle">
+            <input type="checkbox" class="checkbox" id="checkbox" (change)="toggleDarkMode();">
+            <label for="checkbox" class="label">
+                <i class="fa fa-moon-o" aria-hidden="true"></i>
+                <i class="fa fa-sun-o" aria-hidden="true"></i>
+                <div class="ball"></div>
+            </label>
+        </div>
+    </div>
+    
+</nav>

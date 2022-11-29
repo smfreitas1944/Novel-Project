@@ -1,1 +1,14 @@
-<p>display-characters works!</p>
+<app-navbar></app-navbar>
+<div class="container p-3">
+    <h2 class="text-center light-foreground mb-5">{{title}}</h2>
+    <div class="row align-items-start justify-content-between">
+       <div class="col mb-2" *ngFor="let character of allCharacters">
+            <div class="row justify-content-center">
+                <app-character-card
+                class="cardListItem"
+                [characterInfo]="character"
+            ></app-character-card> 
+            </div>        
+        </div> 
+    </div>
+</div>
