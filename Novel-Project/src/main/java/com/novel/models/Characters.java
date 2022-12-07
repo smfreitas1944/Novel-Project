@@ -32,6 +32,9 @@ public class Characters {
 	@Column(name = "character_gender")
 	private String CharacterGender;
 	
+	@Column(name = "character_novel")
+	private String CharacterNovel;
+	
 	@ManyToOne
 	@JoinColumn(name="character_id", referencedColumnName = "novel_id")
 	private Novel novel;

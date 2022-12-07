@@ -14,16 +14,16 @@ import java.util.List;
 @Transactional
 public interface CharacterRepo extends JpaRepository<Characters, Integer>{
 	@Query(value = "SELECT * FROM FICTIONAL_CHARACTER", nativeQuery = true)
-	List<Characters> findAllCharacters();
+	List<Characters> getAllCharacters();
 	
-	@Query(value = "SELECT * FROM FICTIONAL_CHARACTER WHERE novel_name=?1", nativeQuery = true)
-	List<Characters> findCharactersByNovel(String novel);
+	@Query(value = "SELECT * FROM FICTIONAL_CHARACTER WHERE character_novel=?1", nativeQuery = true)
+	List<Characters> getCharactersByNovel(String character_novel);
 	
 	// crud operations here
 	
-	@Query(value = "INSERT INTO FICTIONAL_CHARACTER (character_name, character_role, character_race, character_age, character_gender) VALUES (?1, ?2, ?3, ?4, ?5)", nativeQuery = true)
-	boolean insertCharacter(String CharacterName, String CharacterRole, String CharacterRace, int CharacterAge, String CharacterGender);
+	@Query(value = "INSERT INTO FICTIONAL_CHARACTER (character_name, character_role, character_race, character_age, character_gender, character_novel) VALUES (?1, ?2, ?3, ?4, ?5, ?6)", nativeQuery = true)
+	boolean insertCharacter(String CharacterName, String CharacterRole, String CharacterRace, int CharacterAge, String CharacterGender, String CharacterNovel);
 	
-	@Query(value = "DELETE FROM FICTIONAL_CHARACTER WHERE character_id=?1", nativeQuery = true)
-	boolean deleteCharacterById(int CharacterId);
+	@Query(value = "DELETE FROM FICTIONAL_CHARACTER WHERE character_novel=?1", nativeQuery = true)
+	boolean deleteCharacterByNovel(Characters characters);
 }

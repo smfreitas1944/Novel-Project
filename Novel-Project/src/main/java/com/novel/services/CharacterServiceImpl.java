@@ -17,21 +17,25 @@ public class CharacterServiceImpl implements CharacterService {
 	
 	@Override
 	public List<Characters> getAllCharacters(){
-		return characterRepo.findAllCharacters();
+		return characterRepo.getAllCharacters();
 	}
 
 	@Override
 	public List<Characters> getCharactersByNovel(String novel){
-		return characterRepo.findCharactersByNovel(novel);
+		return characterRepo.getCharactersByNovel(novel);
 	}
 	
 	// crud operations here
-	
-	public boolean insertCharacter(String CharacterName, String CharacterRole, String CharacterRace, int CharacterAge, String CharacterGender) {
-		return characterRepo.insertCharacter(CharacterName, CharacterRole, CharacterRace, CharacterAge, CharacterGender);
+	@Override
+	public boolean insertCharacter(String CharacterName, String CharacterRole, String CharacterRace, int CharacterAge,
+			String CharacterGender, String CharacterNovel) {
+		// TODO Auto-generated method stub
+		return false;
 	}
 
-	public boolean deleteCharacterById(int CharacterId) {
-		return characterRepo.deleteCharacterById(CharacterId);
+	@Override
+	public boolean deleteCharacterByNovel(Characters characters) {
+		// TODO Auto-generated method stub
+		return false;
 	}
 }

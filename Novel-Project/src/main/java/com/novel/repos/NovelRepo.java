@@ -30,6 +30,6 @@ public interface NovelRepo extends JpaRepository<Novel, Integer>{
 	@Query(value = "INSERT INTO NOVEL (novel_name, novel_author, novel_genre) VALUES (?1, ?2, ?3)", nativeQuery = true)
 	boolean insertNovel(String NovelName, String NovelAuthor, String NovelGenre);
 	
-	@Query(value = "DELETE FROM NOVEL WHERE novel_id=?1", nativeQuery = true)
-	boolean deleteNovelById(int NovelId);
+	@Query(value = "DELETE FROM NOVEL WHERE novel_name=?1", nativeQuery = true)
+	boolean deleteNovelByName(String NovelName);
 }

@@ -42,7 +42,7 @@ public class NovelServiceImpl implements NovelService {
 	}
 	
 	@Override
-	public boolean deleteNovelById(int NovelId) {
-		return novelRepo.deleteNovelById(NovelId);
+	public boolean deleteNovelByName(String NovelName) {
+		return novelRepo.deleteNovelByName(NovelName);
 	}
 }

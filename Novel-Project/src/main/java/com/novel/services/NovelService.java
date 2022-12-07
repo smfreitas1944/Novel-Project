@@ -17,5 +17,5 @@ public interface NovelService {
 	
 	boolean insertNovel(String NovelName, String NovelAuthor, String NovelGenre);
 	
-	boolean deleteNovelById(int NovelId);
+	boolean deleteNovelByName(String NovelName);
 }

@@ -9,11 +9,11 @@ public interface CharacterService {
 
 	List<Characters> getAllCharacters();
 
-	List<Characters> getCharactersByNovel(String novel);
+	List<Characters> getCharactersByNovel(String CharacterNovel);
 	
 	// crud operations here
 	
-	boolean insertCharacter(String CharacterName, String CharacterRole, String CharacterRace, int CharacterAge, String CharacterGender);
+	boolean insertCharacter(String CharacterName, String CharacterRole, String CharacterRace, int CharacterAge, String CharacterGender, String CharacterNovel);
 
-	boolean deleteCharacterById(int CharacterId);
+	boolean deleteCharacterByNovel(Characters characters);
 }
