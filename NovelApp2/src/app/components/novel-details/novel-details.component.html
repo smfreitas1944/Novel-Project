@@ -1,0 +1,19 @@
+<p>novel-details works!</p>
+<h2>Novel Details</h2> 
+
+<hr/>
+<div *ngIf="novels">
+  <div>
+    <label><b>Novel: </b></label> {{novels.novel_name}}
+  </div>
+  <div>
+    <label><b>Author: </b></label> {{novels.novel_author}}
+  </div>
+  <div>
+    <label><b>Genre: </b></label> {{novels.novel_genre}}
+  </div>  
+</div>
+
+<br>
+<br>
+<button (click)="list()" class="btn btn-primary">Back to Novel List</button><br>

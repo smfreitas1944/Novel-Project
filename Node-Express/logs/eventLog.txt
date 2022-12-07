@@ -1,0 +1,117 @@
+20221207	05:37:33	81cc6679-b38b-4c94-a898-b5539b7391ea	GET	undefined	/new-page.html
+
+20221207	05:37:34	47de6a1e-8e0e-4a36-836e-7f172dfcc30b	GET	undefined	/css/style.css
+
+20221207	05:37:34	0cad0224-41df-4fa9-a31b-10fbc3f8590c	GET	undefined	/img/img1.jpg
+
+20221207	05:39:56	c14ccc32-e1e6-405d-8a9d-b53eb6cf6436	GET	undefined	/new-page.html
+20221207	05:39:56	ee22e257-03c4-484f-b87d-45ec1cbb2af0	GET	undefined	/css/style.css
+20221207	05:39:56	41e53ffe-b506-4ce9-9be5-fe9bba6f577a	GET	undefined	/img/img1.jpg
+20221207	06:06:17	9d19a57c-c108-4126-93b8-a9619b68e846	GET	undefined	/new-page.html
+20221207	06:06:17	259bda88-b7a9-40f7-8467-d1efa5395a30	GET	undefined	/css/style.css
+20221207	06:06:39	4e84cd68-5720-45f7-aaf0-3602824f8073	GET	undefined	/
+20221207	06:06:39	bf3a082e-38d4-4f96-82ab-09c7cbb10b3c	GET	undefined	/css/style.css
+20221207	06:06:41	4b35aa25-18b5-4917-b582-de26b9983e7a	GET	undefined	/
+20221207	06:06:41	1f114735-0458-4951-b6a1-84bf8a4e145c	GET	undefined	/css/style.css
+20221207	06:13:16	46e3ec85-39a1-41c8-8c3f-d416f8436276	GET	undefined	/
+20221207	06:13:16	81fce8c1-67dd-48bf-89cc-1ce1659609ab	GET	undefined	/css/style.css
+20221207	06:13:16	cc294a1d-3fab-4962-83ed-1d7aeef06462	GET	undefined	/img/img1.jpg
+20221207	06:25:36	2f6ff388-5d79-4ada-acb5-ef69df2f5da4	GET	undefined	/
+20221207	06:25:36	36a0a4d5-a6c0-4d7e-b6fb-21297408daab	GET	undefined	/css/style.css
+20221207	06:25:36	adf966a8-f234-4928-87ab-ef3095559c0e	GET	undefined	/img/img1.jpg
+20221207	06:28:58	8cafda50-347d-4d08-81c5-674fede5c2fc	POST	http://localhost:3500	/
+20221207	06:28:58	cc07e7cf-e816-498e-9d9f-fd3df1fc5d2f	GET	undefined	/css/style.css
+20221207	06:30:22	d91277f9-3c94-4800-953e-91af2d90396d	POST	http://localhost:3500	/
+20221207	06:30:22	12c94e79-0152-4bf2-9d3f-fab49c959467	GET	undefined	/css/style.css
+20221207	06:32:02	7b7611bd-5f12-423c-8d48-47839a5a8b80	GET	undefined	/
+20221207	06:32:02	7beaa83b-b4b2-4fdd-936f-88923c820159	GET	undefined	/css/style.css
+20221207	06:32:02	1692bdbc-a719-4abf-83d3-6dfc6353c11e	GET	undefined	/img/img1.jpg
+20221207	06:32:18	7cf5c8fa-506c-4b4c-96e3-f870bfc9d2e1	POST	http://localhost:3500	/
+20221207	06:32:18	64047d4b-1f72-45ee-8098-ca80c6ae2958	GET	undefined	/css/style.css
+20221207	06:35:42	23d6fa8c-99ee-476b-9f4b-ef3cba6dcb3c	GET	undefined	/
+20221207	06:35:42	e47ad830-dd93-4858-9dc3-026c725714a0	GET	undefined	/css/style.css
+20221207	06:35:42	95006e81-b3f0-40f6-bc18-f4cfc6fa5004	GET	undefined	/img/img1.jpg
+20221207	06:35:55	a36a53b4-a122-42cb-92b3-b1dedcc5f1d9	POST	http://localhost:3500	/
+20221207	06:40:15	896ae871-8137-4805-8cfe-1696e7201326	GET	undefined	/
+20221207	06:40:19	9c94592c-aa01-4986-8983-1f9d18dc36ac	POST	http://localhost:3500	/
+20221207	06:40:19	ac9a7bd1-29a8-45d7-8616-08dcd8dbb4af	GET	undefined	/css/style.css
+20221207	06:40:36	d3afbad2-bb46-4147-9635-ca13e449738a	POST	http://localhost:3500	/
+20221207	06:40:38	b917fcfd-39ba-472f-9703-4822b4b2a4cb	GET	undefined	/
+20221207	06:41:09	89deaa60-7087-4973-87f8-b365249c47f1	POST	http://localhost:3500	/
+20221207	06:41:09	1fa4c0a8-728a-4fd9-873b-f2848bc86ca6	TypeError: Cannot read property 'status' of undefined
+20221207	06:44:18	6ca6955d-7087-456f-ab1a-3549df930dd8	POST	http://localhost:3500	/
+20221207	06:44:18	d26bb103-57df-49a2-9a66-80dc6869d216	TypeError: Cannot read property 'get' of undefined
+20221207	06:44:48	61997d93-cef9-4e6a-aaa4-be4ecceaaf8e	POST	http://localhost:3500	/
+20221207	06:44:48	7432d60f-44fd-44ed-9303-bbf3f959e600	Error: Cannot set headers after they are sent to the client
+20221207	06:45:38	f067af3d-81ec-4bd6-a392-8a655f8ccdaa	GET	undefined	/
+20221207	06:45:39	32c41a95-0b7b-4a75-b493-3f6f8ae580cf	POST	http://localhost:3500	/
+20221207	06:45:39	10dd2c6b-7451-4ee1-85d5-97cd0b1d6e05	Error: Cannot set headers after they are sent to the client
+20221207	06:46:05	4619aac0-f440-4869-b446-e2b70e6ab31f	GET	undefined	/
+20221207	06:46:50	1a6bcc4d-9742-4ddb-af7f-4732847ce74e	POST	http://localhost:3500	/
+20221207	06:48:23	8676fbbd-1e56-465e-ade9-251e3f947673	GET	undefined	/
+20221207	06:48:26	0ae4da39-a9c2-49f3-b13f-35664c034c85	POST	http://localhost:3500	/
+20221207	06:48:26	9cb500ea-632f-4447-8222-17eb6eee7f8f	GET	undefined	/css/style.css
+20221207	06:48:42	f91aeb95-cd06-4eef-ba76-ae404d42537b	POST	http://localhost:3500	/
+20221207	06:48:42	004382ad-98b5-40a4-9ee8-ae4373982603	GET	undefined	/css/style.css
+20221207	06:56:13	ed33df90-b5e9-4d5b-af92-b32b50c285b9	POST	http://localhost:3500	/
+20221207	06:56:13	d80f7265-25af-4740-b300-11cbb992f771	GET	undefined	/css/style.css
+20221207	06:56:22	c1d4743e-e264-461b-b2c8-80370d252cc1	POST	http://localhost:3500	/
+20221207	06:56:23	0f15d66b-f5d1-4cab-9174-51ad33e389aa	GET	undefined	/css/style.css
+20221207	06:56:34	fd68866f-7888-49ac-85ad-1fc0a7eee171	POST	http://localhost:3500	/
+20221207	06:57:05	093a8daf-95cc-4819-8572-7fad8209d079	POST	undefined	/cats
+20221207	06:58:12	77d07e1a-68cd-444b-a04b-6368adee5b1a	POST	undefined	/cats
+20221207	06:59:17	beb7532b-8273-42d5-ac88-c6d29eb42268	POST	undefined	/cats
+20221207	07:06:11	2c496261-cbff-4d94-a271-bb84a83947fd	POST	undefined	/cats
+20221207	07:14:35	f0e8dfb4-2b93-4ebc-8129-0a6bf11632ab	POST	undefined	/cats
+20221207	07:17:55	8ed3428c-b1c8-45cb-977f-7c27892d9df5	GET	undefined	/cats
+20221207	07:19:03	622e85df-8a31-449e-9e97-f4df05134ed4	POST	undefined	/cats
+20221207	07:21:46	b0dcdb46-ce45-4ede-94a7-6c9ce7890953	PUT	undefined	/cats
+20221207	07:26:40	73f5ce0c-e485-4dfb-860d-5d924781a786	PUT	undefined	/cats
+20221207	07:29:35	2b83cad4-aab7-4427-aa1d-38d237333b29	GET	undefined	/
+20221207	07:29:36	92552f28-45d7-4c38-bc73-80d54e0c5b20	POST	http://localhost:3500	/
+20221207	07:29:40	376a85ec-de94-41f6-b647-b326595df296	GET	undefined	/
+20221207	07:31:44	04b29541-188d-45cd-8a78-47e69bc82bcd	POST	undefined	/cats
+20221207	07:36:22	f39adff0-0e4e-48c4-bdc7-e25d226c25d8	POST	http://localhost:3500	/
+20221207	07:36:30	733a2d7f-8547-4b09-bdd1-0839a67476c2	GET	undefined	/
+20221207	07:36:34	5c8ea838-9752-4b57-a6fe-db07f470f69f	POST	undefined	/cats
+20221207	07:36:55	2a2f46d9-797a-4326-a1af-b402ebc2331b	POST	undefined	/cats
+20221207	07:37:20	6ef43324-ce73-4dcf-88ca-00698259744a	GET	undefined	/cats
+20221207	07:37:47	619e2bd3-d661-41b2-aebd-0a4433fb0791	PUT	undefined	/cats
+20221207	07:38:01	95a68e68-5d6b-4fd2-a6e6-98cdbbc6b28e	DELETE	undefined	/cats
+20221207	07:38:05	04195f9d-0cee-481d-9622-bf5cdcf4e540	POST	undefined	/cats
+20221207	07:40:06	073a444d-c95b-478d-ba46-d944bbcea571	POST	http://localhost:3500	/
+20221207	07:40:06	e2aa600d-0f7e-4743-aa92-b7b542f8362a	GET	undefined	/css/style.css
+20221207	07:40:07	39dd8fd3-380e-46a0-a6b7-300d62d7b7cd	GET	undefined	/
+20221207	07:41:22	4ab880e2-f3b2-4e16-a796-25e50d3882ea	POST	http://localhost:3500	/
+20221207	07:41:22	81321722-04cb-4c9e-8011-99bc98153340	ReferenceError: request is not defined
+20221207	07:41:23	bac2e1d4-d88b-4b6b-bdd1-bb85a62f9401	GET	undefined	/
+20221207	07:41:47	e4f74d78-4ac2-47d3-b962-df1cb8172a88	POST	http://localhost:3500	/
+20221207	07:41:47	dd7397f5-bf3e-46ca-885e-4ebb67521b95	ReferenceError: request is not defined
+20221207	07:42:04	a591668d-4fa0-4488-814d-fca9802a1908	POST	http://localhost:3500	/
+20221207	07:42:04	ded8488e-185e-4d0d-8a75-d1bf92f919f2	ReferenceError: request is not defined
+20221207	07:42:44	ef97dafe-fc5c-4a59-9cd7-4909e11143a9	POST	http://localhost:3500	/
+20221207	07:42:47	5a4ad237-2422-4669-b760-7cee4ef898c7	GET	undefined	/
+20221207	07:45:20	4889c45f-b30c-4567-8235-8697035e3318	POST	http://localhost:3500	/
+20221207	07:45:21	c60eb23c-e65f-427a-8450-5763992a3a04	GET	undefined	/css/style.css
+20221207	07:45:25	11549ebd-5c20-461b-861f-571c75eb4388	POST	http://localhost:3500	/
+20221207	07:45:25	4e4d2090-6161-4fa3-9501-f40b57c88a48	GET	undefined	/css/style.css
+20221207	07:46:00	ebd0a305-de7d-42ea-8422-942884b85746	POST	http://localhost:3500	/
+20221207	07:46:01	9ff737c4-c64a-4736-950a-aa8fc730e6b5	GET	undefined	/css/style.css
+20221207	07:46:03	848b8109-dea9-4bc7-bf8b-3469aaaaa1d3	POST	http://localhost:3500	/
+20221207	07:46:03	2b0ac13d-8e79-4a9d-b46d-caa24b4ad717	GET	undefined	/css/style.css
+20221207	07:46:28	821b2a6f-0794-4010-9eab-48f99d93cf57	POST	http://localhost:3500	/
+20221207	07:46:28	c351035b-9fd2-4264-ba47-bdd655277293	GET	undefined	/css/style.css
+20221207	07:46:43	4d98887c-8083-431b-8fbb-154a96da3cd8	POST	http://localhost:3500	/
+20221207	07:46:43	f5f1cef2-bc59-4805-bae7-5ddf03df9d81	GET	undefined	/css/style.css
+20221207	07:46:46	7a36a49d-a9ed-4609-a676-1c96109b73e0	POST	http://localhost:3500	/
+20221207	07:46:46	4f6b9315-447e-45e9-b5bc-dad0d5e83d44	GET	undefined	/css/style.css
+20221207	07:47:52	f8b7a605-a7f7-47cd-9d5a-02c165bced86	POST	undefined	/cats
+20221207	07:48:00	50bc86c1-f7da-4756-a781-a4bef117639f	DELETE	undefined	/cats
+20221207	08:13:27	b006ce5c-cc67-4e0a-a898-28a2c8e4ad00	POST	http://localhost:3500	/
+20221207	08:13:27	f1934ec2-dfd5-4100-b297-bfc4da47ef44	GET	undefined	/css/style.css
+20221207	08:16:46	40a97d83-68f8-42ad-8734-3d65424b3ad2	POST	http://localhost:3500	/
+20221207	08:16:46	9758ec4d-fbde-4a32-a586-f1f6f3f06abc	GET	undefined	/css/style.css
+20221207	08:17:04	dc2ee3a7-f57a-48d8-8d6c-51fc35155c8e	POST	undefined	/cats
+20221207	08:17:11	9a17e4a8-c7eb-4119-b7cd-b9e81f18057e	DELETE	undefined	/cats
+20221207	08:18:06	fa3dc54e-3150-4ca0-9fa1-b099f62c3ebb	POST	http://localhost:3500	/
+20221207	08:21:15	560adf85-38e3-4887-a95a-b9a8245f3370	GET	undefined	/

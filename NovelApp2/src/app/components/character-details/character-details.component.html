@@ -1,0 +1,28 @@
+<p>character-details works!</p>
+<h2>Character Details</h2> 
+
+<hr/>
+<div *ngIf="characters">
+  <div>
+    <label><b>Name: </b></label> {{characters.character_name}}
+  </div>
+  <div>
+    <label><b>Role: </b></label> {{characters.character_role}}
+  </div>
+  <div>
+    <label><b>Race: </b></label> {{characters.character_race}}
+  </div>  
+  <div>
+    <label><b>Age: </b></label> {{characters.character_age}}
+  </div>
+  <div>
+    <label><b>Gender: </b></label> {{characters.character_gender}}
+  </div>
+  <div>
+    <label><b>Novel: </b></label> {{characters.character_novel}}
+  </div>  
+</div>
+
+<br>
+<br>
+<button (click)="list()" class="btn btn-primary">Back to Novel List</button><br>

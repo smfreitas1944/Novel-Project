@@ -25,6 +25,10 @@ import { DisplayAdventureComponent } from './components/genre/display-adventure/
 import { DisplayRomanceComponent } from './components/genre/display-romance/display-romance.component';
 import { DisplayScifiComponent } from './components/genre/display-scifi/display-scifi.component';
 import { DisplayDramaComponent } from './components/genre/display-drama/display-drama.component';
+import { NovelDetailsComponent } from './components/novel-details/novel-details.component';
+import { CreateNovelComponent } from './components/create-novel/create-novel.component';
+import { CreateCharacterComponent } from './components/create-character/create-character.component';
+import { CharacterDetailsComponent } from './components/character-details/character-details.component';
 
 @NgModule({
   declarations: [
@@ -50,7 +54,11 @@ import { DisplayDramaComponent } from './components/genre/display-drama/display-
     DisplayAdventureComponent,
     DisplayRomanceComponent,
     DisplayScifiComponent,
-    DisplayDramaComponent
+    DisplayDramaComponent,
+    NovelDetailsComponent,
+    CreateNovelComponent,
+    CreateCharacterComponent,
+    CharacterDetailsComponent
   ],
   imports: [
     BrowserModule,

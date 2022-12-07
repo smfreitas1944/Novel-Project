@@ -1,11 +1,9 @@
 export class Novel {
-    id: number;
     name: string;
     genre: string;
     author: string;
 
-    constructor (id: number, name: string, genre: string, author: string) {
-        this.id = id;
+    constructor (name: string, genre: string, author: string) {
         this.name = name;
         this.genre = genre;
         this.author = author;
