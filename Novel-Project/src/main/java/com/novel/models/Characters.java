@@ -10,7 +10,7 @@ import javax.persistence.*;
 @NoArgsConstructor
 @Data
 @Entity
-@Table(name = "FICTIONAL_CHARACTER")
+@Table(name = "fictional_character")
 public class Characters {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -34,6 +34,6 @@ public class Characters {
 	
 	@ManyToOne
 	@JoinColumn(name="character_id", referencedColumnName = "novel_id")
-	private User user;
+	private Novel novel;
 
 }
